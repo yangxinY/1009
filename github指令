@@ -1,0 +1,21 @@
+git config --global user.name
+git config --global user.email
+
+// 初始设置全局的用户名和email;
+
+如果后面出现了报错 报错包含 place tell me who u are ; 说明初始设置不对;
+
+
+git init  初始化git仓库的指令；
+
+Initialized empty Git repository in 你的路径;
+
+
+git add 文件名(表示将对应的文件名放入暂存区)；
+
+git add -A 放入当前文件夹下的所有内容;
+
+
+git status 查看暂存区状态;（不支持中文）
+
+git commit -m 所有暂存区内的数据放入本地仓库;  必须添加注释;
